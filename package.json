@@ -1,9 +1,17 @@
 {
   "name": "web_scraping",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.mjs",
   "license": "MIT",
   "devDependencies": {
+    "nodemon": "^2.0.19",
     "playwright": "^1.23.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.mjs"
   }
 }
